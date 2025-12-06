@@ -1,0 +1,291 @@
+body{
+    margin:0;
+    background:linear-gradient(180deg,#090417 0%,#17122b 60%);
+    color:#fff;
+    line-height:1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+.container{
+    max-width:1100px;
+    margin:0 auto;
+    padding:24px;
+}
+
+header{
+    background:linear-gradient(90deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+}
+
+.nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 0;
+}
+
+.logo{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.logo .mark{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+    background:linear-gradient(135deg,#ffb86b);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Playfair Display';
+    font-weight:700;
+    color:#2b0b3a;
+}
+
+nav ul{
+    display:flex;
+    gap:18px;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.he{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+nav li{
+    font-weight:600;
+}
+.cta{
+    background:#ffb86b;
+    color:#2b0b3a;
+    padding:8px 14px;
+    border-radius:10px;
+    font-weight:700;
+    cursor: pointer;
+}
+
+.hero{
+    display:flex;
+    gap:32px;
+    align-items:center;
+    padding:48px 0; 
+}
+.hero-left{
+    flex:1;
+}
+
+.kicker{
+    display:inline-block;
+    padding:6px 10px;
+    border-radius:999px;
+    background:rgba(255,255,255,0.04);
+    font-size:13px;
+}
+
+h1{
+    font-family:'Playfair Display', serif;
+    font-size:40px;
+    margin:14px 0 10px;
+}
+
+.hero-actions{
+    margin-top:18px;
+    display:flex;
+    gap:12px;
+}
+
+.btn{
+    padding:12px 18px;
+    border-radius:12px;
+    font-weight:700;
+    border:0;
+    cursor:pointer;
+}
+
+.btn-primary{
+    background:linear-gradient(90deg,#ffb86b);
+    color:#170718;
+}
+
+.btn-ghost{
+    background:linear-gradient(90deg,#ffb86b);
+    color:#170718;
+}
+
+.hero-right{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.card{
+    width:320px;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 30px rgba(0,0,0,0.6);
+    background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
+}
+.card img{
+    display:block;
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card-body{
+    padding:14px;
+}
+
+.small{
+    font-size:13px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:18px;
+    margin-top:28px;
+}
+
+.service{
+    background:rgba(255,255,255,0.02);
+    padding:18px;
+    border-radius:12px;
+}
+
+.service h3{
+    margin:8px 0 6px;
+    font-size:18px;
+}
+
+.astro-list{
+    display:flex;
+    gap:12px;
+    overflow-x:auto;
+    padding-bottom:8px;
+}
+
+.astro{
+    min-width:235px;
+    background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+    border-radius:12px;
+    padding:12px;
+}
+
+.astro img{
+    width:100%;
+    height:120px;
+    object-fit:cover;
+    border-radius:8px;
+}
+.astro h4{
+    margin:10px 0 4px;
+}
+
+.rating{
+    font-weight:700;
+    color:#ffd166;
+}
+
+footer{
+    margin-top:40px;
+    padding:30px 0;
+    border-top:1px solid rgba(255,255,255,0.03);
+}
+
+.muted{
+    font-size:14px;
+}
+
+.pill{
+    display:inline-block;
+    padding:6px 10px;
+    background:rgba(255,255,255,0.02);
+    border-radius:999px;
+    font-weight:600;
+}
+
+.shadow-soft{
+    box-shadow:0 8px 30px rgba(10,6,20,0.6);
+}
+
+.service:hover{
+    transform:translateY(-6px);
+    transition:all .25s ease;
+}
+
+.astro:hover{
+    transform:translateY(-6px);
+    transition:all .25s ease;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+    transition:all .18s ease;
+}
+
+.cosmic-section{
+    position:relative;
+    z-index:1;
+    margin-top:40px;
+    padding:20px;
+    border-radius:12px;
+}
+
+.cosmic-title{
+    font-size:28px;
+    margin-bottom:18px;
+    color:#ffdbe9;
+    font-family:'Playfair Display',serif;
+}
+
+.cosmic-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:18px;
+}
+
+.cosmic-card{
+    background:rgba(255,255,255,0.02);
+    border-radius:12px;
+    padding:18px;
+    text-align:center;
+    cursor: pointer;
+}
+
+.cosmic-icon{
+    font-size:34px;
+    margin-bottom:8px;
+    cursor: pointer;
+}
+
+.cosmic-name{
+    font-size:18px;
+    margin-bottom:6px;
+    font-weight:700;
+    cursor: pointer;
+}
+
+.cosmic-dates{
+    font-size:13px;
+    opacity:0.85;
+    margin-bottom:8px;
+    cursor: pointer;
+}
+
+.cosmic-horoscope{
+    background:rgba(255,255,255,0.01);
+    padding:12px;
+    border-radius:8px;
+    margin-top:8px;
+}
